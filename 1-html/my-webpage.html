@@ -8,7 +8,7 @@
 
     <body>
         <h1> Rand </h1>
-        <img src="Rand.jpeg" alt="Italian Trulli">
+        <img src="Rand.jpeg" alt="Italian Trulli"  width="100" height="100" align="left">
         <p>Here is some <strong>bold</strong> text</p>
         
         <p>Here is some <em>italic</em> text</p>
@@ -22,12 +22,86 @@
         <p>Here is some <sub>subscript</sub> text</p>
         
         <p>Here is some <del>deleted</del> text</p>
+        <form>
+            <!-- The attribute of place holder to give a idea what the user
+            shouold add -->
+            <p>Username: <input type="text" placeholder="your username"></p>
+            
+            <!-- The "chekced" valuse is for giving diffult value.-->
+            <p>Stay logged in: <input type="checkbox" checked></p>
+            <!--To link the under 18 and over 18 we have to 
+            give the attribute name the same value as here "age"-->
+            <p>Under 18: <input type="radio" name="age" value="u18"></p>
+            
+            <p>Over 18: <input type="radio" name="age" value="o18"></p>
+            
+            <p>Favourite food:
+                <!--This slecte elment will give as drop list
+                and the diffult value will be taged with attribute selected.-->
+                <select>
+            
+                    <option>Pizza</option>
+                    <option selected>Ice Cream</option>
+                    <option>Sandwiches</option>
+                
+                </select>
+            
+            </p>
+            <!--
+                This input can be as submit buttum by changing the type-->
+            
+            <p><input type="submit" value="Click me!"></p>
+        
+        </form>
 
         <ol type="i">
         	<li>Red</li>
             <li>Yellow</li>
             <li>Blue</li>
         </ol>
+
+        <table>
+            <!--This the talbe header for each column-->
+            <thead>
+                <!--Table row tr -->
+                <tr>
+                
+                    <th>Name</th>
+                    <th>Favourite<br>Colour</th>
+                    
+                </tr>
+            
+            </thead>
+            
+            <tr>
+                <!--Table data-->
+                <td>Rob</td>
+                <td>Green</td>
+            
+            </tr>
+            
+            <tr>
+            
+                <td>Kirsten</td>
+                <td>Orange</td>
+            
+            </tr>
+        
+            <tr>
+            
+                <td>Tommy</td>
+                <td>Pink</td>
+            
+            </tr>
+            
+            <tr>
+            
+                <td>Ralphie</td>
+                <td>Blue</td>
+            
+            </tr>
+        
+        </table>
         
     </body>
 
